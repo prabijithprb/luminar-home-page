@@ -8,4 +8,18 @@
     color: rgb(169, 67, 169);
     border-bottom: 3px solid rgb(169, 67, 169);
   }
+  .carousel-caption {
   
+    bottom: 15rem !important;
+    left:25rem !important;
+    
+}
+.karousel-head{
+  
+  font-size: 4rem;
+  text-align: start;
+  margin-left: -10rem;
+}
+.karousel-item{font-size: 4rem !important;
+}
+ 
