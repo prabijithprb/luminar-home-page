@@ -1,0 +1,22 @@
+div{
+    width: 300px;
+    background-color: blueviolet;
+}
+p{
+    color: white;
+    font-size: small;
+}
+@media (max-width:400px) and(max-width:700px){
+
+(orientation: landscape)
+div{background-color: chartreuse;
+    
+}
+
+p{
+    color: chocolate;font-size:x-large;
+    
+}
+span{
+    display: none;
+}

@@ -1,30 +1,121 @@
 .nav-link:hover {
-    border-bottom: 3px solid rgb(169, 67, 169);
-  }
-  .nav-link {
-    color: black;
-  }
-  #current {
-    color: rgb(169, 67, 169);
-    border-bottom: 3px solid rgb(169, 67, 169);
-  }
-  .carousel-caption {
-  
-    bottom: 15rem !important;
-    left:25rem !important;
-    
+  border-bottom: 3px solid rgb(169, 67, 169);
 }
-.karousel-head{
-  
+
+.nav-link {
+  color: black;
+}
+
+#current {
+  color: rgb(169, 67, 169);
+  border-bottom: 3px solid rgb(169, 67, 169);
+}
+
+.carousel-caption {
+
+  bottom: 15rem !important;
+  left: 25rem !important;
+
+}
+
+.karousel-head {
+
   font-size: 4rem;
   text-align: start;
   margin-left: -10rem;
 }
-.karousel-item{font-size: 4rem !important;
+
+.karousel-item {
+  font-size: 4rem !important;
 }
- 
-.About-section h1{
+
+.About-section h1 {
   color: rgb(49, 5, 93);
 }
-.btn1{color: rgb(186, 184, 188);
-background: rgb(87, 66, 181);}
+
+.btn1 {
+  color: rgb(186, 184, 188);
+  background: rgb(87, 66, 181);
+}
+
+/* 
+
+
+.courses h3{ 
+  text-align: center;
+  color: rgb(48, 2, 90)
+  
+  
+
+} */
+/* span{color: rgb(119, 88, 149);} */
+
+.courses {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.down {
+  width: 75%;
+  margin-top: px;
+}
+
+.down img {
+  width: 100%;
+}
+
+.courses h3 {
+  text-align: center;
+  color: rgb(48, 2, 90)
+}
+
+span {
+  color: rgb(119, 88, 149);
+}
+
+.aditional-courses{
+  width: 75%;
+  }
+  .aditional-courses h5{
+    color: blueviolet;
+  }
+  .card-title{
+    font-size: 1.2rem;
+  }
+  .card-body button{
+    padding: .5rem 1rem;
+    background:#5e068a;
+    border: none;
+    color: white;
+  }
+  .card:hover,.down:hover{
+    box-shadow: 2px 2px 20px 0 rgba(0,0,0,0.75);
+  }
+  /* .view-all-courses{
+    width: 75%;
+    display: flex;
+    justify-content: center; */
+  
+.view-all
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.view-all button{
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  border: 1px solid #5e068a;
+  color: #5e068a;
+}
+.view-all button:hover{
+  background: #5e068a;
+  color: white;
+  transition: all .35s;
+}
+  
